@@ -11,19 +11,14 @@
 
   var swiper = new Swiper(".cubeSwiper3", {
     slidesPerView: 1,
-    spaceBetween: 10,
     loop: true,
     autoplay: true,
     interval: 2000,
     grabCursor: true,
     pauseOnMouseEnter: true,
     breakpoints: {
-      768: {
-        slidesPerView: 2,
-        spaceBetween: 20,
-      },
       1024: {
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 20,
       },
     },
